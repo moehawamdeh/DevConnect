@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorBackground"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:background="@color/colorSecondaryLight"
+            android:baselineAligned="false"
+            android:elevation="8dp">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/home_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                style="@style/NoCapsTextAppearanceTab"
+                app:tabIconTint="@color/light_state_color"
+                app:tabTextColor="@color/light_state_color">
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/inbox_tab_chat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/tab_top"
+                    />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/inbox_tab_notifications"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/notifications" />
+            </com.google.android.material.tabs.TabLayout>
+        </LinearLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/inbox_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="48dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

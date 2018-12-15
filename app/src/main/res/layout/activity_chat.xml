@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorSecondaryLight"
+android:orientation="vertical"
+tools:context=".view.ChatActivity">
+<LinearLayout
+    android:layout_gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:weightSum="4"
+    android:background="@color/colorSecondaryLight"
+    android:elevation="8dp"
+    >
+
+    <include layout="@layout/layout_logo" />
+    <TextView
+        android:id="@+id/other_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:gravity="center|start"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        tools:text="asdasdasdsada"/>
+</LinearLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingBottom="60dp"
+    android:background="@color/colorBackground"
+    android:paddingTop="?attr/actionBarSize">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</FrameLayout>
+
+<LinearLayout
+    android:background="@color/colorSecondaryLight"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:weightSum="4"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/colorBackgroundDark"
+        android:id="@+id/text_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/textDark"
+        android:inputType="textShortMessage"
+        android:layout_weight="3"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/send_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryLight"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_round_send_24px"
+        android:tint="@color/colorSecondaryDarker"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
+</FrameLayout>
+    </layout>

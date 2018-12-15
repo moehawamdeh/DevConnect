@@ -1,0 +1,432 @@
+<resources>
+    <string name="app_name">DevConnect</string>
+    <string name="notification_channel_name">DevConnect notification</string>
+    <string name="notification_channel_description">general notifications</string>
+    <string name="hint_text_email">Email</string>
+    <string name="hint_text_password">Password</string>
+    <string name="register">Sign Up</string>
+    <string name="date_not_specified">not specified</string>
+    <string name="not_registered_yet">No account yet?</string>
+    <string name="sign_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="hint_text_first">First</string>
+    <string name="hint_text_last">Last</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="inbox">Inbox</string>
+    <string name="tab_new">New</string>
+    <string name="tab_top">Top</string>
+    <string name="explore">EXPLORE</string>
+    <string name="copy_summary">Project: %1$s\nby %2$s\n\nSummary: %3$s.\n\nExplore this great project and many more at DevConnect! Download now</string>
+    <string name="share">Share</string>
+    <string name="save_post">Save post</string>
+    <string name="filters">Filters</string>
+    <string name="search_in">Search in:</string>
+    <string name="titles">Titles</string>
+    <string name="posts">Posts</string>
+    <string name="location">Location</string>
+    <string name="locate_me">Locate me</string>
+    <string name="posted_at">Posted at</string>
+    <string name="add_key_word_content_discrpition">add key word</string>
+    <string name="add">ADD</string>
+    <string name="keywords">Keywords</string>
+    <string name="search">Search</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="slogan_step_one">Kick off</string>
+    <string name="title">Project Title</string>
+    <string name="helper_text_title">e.g. Architecture Graduation Project</string>
+    <string name="helper_text_desciption">summarize your project</string>
+    <string name="description">Description</string>
+    <string name="step_one_subtitle">Project goals</string>
+    <string name="goal">Goal</string>
+    <string name="text_helper_goal">a desired result</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="publish">PUBLISH</string>
+    <string name="undo">UNDO</string>
+    <string name="error_empty_title">Title cannot be empty</string>
+    <string name="error_empty_description">Description cannot be empty</string>
+    <string name="error_items_max">Maximum 5, remove then add</string>
+    <string name="error_items_empty">add text first</string>
+    <string name="toast_goal_removed">Goal removed</string>
+    <string name="toast_activity_removed">Activity removed</string>
+    <string name="toast_position_removed">Position removed</string>
+    <string name="step_two_subtitle">Project Activities</string>
+    <string name="activity">Activity</string>
+    <string name="text_helper_activity">divides working process into units</string>
+    <string name="slogan_step_two">Roadmap</string>
+    <string name="deadline">Deadline</string>
+    <string name="optional">(optional)</string>
+    <string name="date_set">Deadline added</string>
+    <string name="slogan_step_three">Recruit</string>
+    <string name="invite_people">Invite People</string>
+    <string name="match">Match</string>
+    <string name="step_three_subtitle_positions">Team positions</string>
+    <string name="hint_team_position">Team position</string>
+    <string name="helper_text_team_position">your crew are your strength</string>
+    <string name="more_details">More details</string>
+    <string name="helper_text_more_details">Any thing more to say?</string>
+    <string name="details">Details</string>
+    <string name="slogan_step_four">Last touches</string>
+    <string name="add_photo">Add photo</string>
+    <string name="change_photo">Tap Here to change photo</string>
+    <string name="preview">PREVIEW</string>
+    <string name="tags">TAGS</string>
+    <string name="tags_min">add 3 tags at least</string>
+    <string name="dash">-</string>
+    <string name="by">by</string>
+    <string name="project_goals">Project goals</string>
+    <string name="team_positions">Team positions</string>
+    <string name="project_activities">Project activities</string>
+    <string name="hiring_status">Hiring status</string>
+    <string name="join">JOIN</string>
+    <string name="support">SUPPORT</string>
+    <string name="alert_support">Support is currently under development\nwould you like to contact %1$ Directly ?</string>
+    <string name="chat_support">Hey I would like to offer support for your project %1$ What can I do?</string>
+    <string name="request_project_join_content">%1$s requests to join your project : %2$s</string>
+    <string name="response_project_join_content">Congratulations\n%1$s accepted your request to join your project : %2$s\a new chat room is created where both of you can discuss work</string>
+    <string name="request_project_join_title">Request to join project</string>
+    <string name="uploading">uploading</string>
+    <string name="loading_more_posts">loading more posts</string>
+    <string name="edit_profile">Edit</string>
+    <string name="edit">Edit</string>
+    <string name="unsave">Remove</string>
+    <string name="followers">followers</string>
+    <string name="votes">votes</string>
+    <string name="published">published</string>
+    <string name="saved_projects">saved</string>
+    <string name="saved_on">Saved on %1$s</string>
+    <string name="published_on">Published on %1$s</string>
+    <string name="post_unsaved">post unsaved</string>
+    <string name="confirm_delete">Delete post?</string>
+    <string name="post_delete_msg">You can edit posts by swiping right</string>
+    <string name="delete">delete</string>
+    <string name="permission_denied_storage">Permission denied, please grant storage read permission</string>
+    <string name="permission_denied_location">Permission denied, please grant location read permission</string>
+    <string name="loading_failed">Loading image failed,try again please</string>
+    <string name="oops">Oops</string>
+    <string name="deleted_project_msg">This project doesn\'t exist any more</string>
+    <string name="deleted_project">Deleted project</string>
+    <string name="name">Name</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">OR</string>
+    <string name="use_phone_number">use phone number</string>
+    <string name="send_code">SEND CODE</string>
+    <string name="welcome_to">Welcome to DevConnect</string>
+    <string name="welcome_slogan">Find your team now !</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="password_helper_text">Make sure it\'s more than 8 characters</string>
+    <string name="basic_info">Basic info</string>
+    <string name="add_location">Add location</string>
+    <string name="apperance_slogan">Help people know you</string>
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palestine</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="time_posted_options">
+        <item name="any_time">@string/anytime</item>
+        <item name="past hour">@string/past_hour</item>
+        <item name ="past_24_hours">@string/past_day</item>
+        <item name = "past_week">@string/past_week</item>
+        <item name ="past_month">@string/past_month</item>
+        <item name="past_year">@string/past_year</item>
+       <!--TODO <item>CUSTOM RANGE</item>-->
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_email">please enter a valid email</string>
+    <string name="error_name">name length cant be less than 2 characters</string>
+    <string name="error_password">short password minimum is 8 characters</string>
+    <string name="intrests_slogan">Get better team recommondations</string>
+    <string name="bio">Bio</string>
+    <string name="helper_text_bio">So, Tell us about yourself</string>
+    <string name="permission_storage">Grant permission to read storage?</string>
+    <string name="error_keyword">minimum length is 2 characters</string>
+    <string name="error_max_keywords">maximum keywords reached,</string>
+    <string name="error_location">Sorry, we couldn\'t find your location</string>
+    <string name="service_not_available">Sorry, this service is not available</string>
+    <string name="no_address_found">Sorry, no location is found</string>
+    <string name="address_found">address found</string>
+    <string name="permission_location">grant permission to read location?</string>
+    <string name="error_creating_user">Sorry, Couldn\'t create user, check you internet connection</string>
+    <string name="creating_user_error_title">problem occured</string>
+    <string name="verify_email">Email verification requierd</string>
+    <string name="error_duplicate_join_request">Join request already sent</string>
+    <string name="error_vote_duplicate">Already voted</string>
+    <string name="cant_sign_in_error">can\'t sign in, try again later</string>
+    <string name="error_sign_in_failed">Sign in failed</string>
+    <string name="reset_pass_alert">send password reset email to</string>
+    <string name="reset_password" >Reset password</string>
+    <string name="reset_mail_sent">password reset mail sent</string>
+    <string name="bad_email_formatt">The email address is badly formatted.</string>
+    <string name="wrong_pass_mail">Wrong password or email.</string>
+    <string name="error_mail_in_use">The email address is already in use by another account.</string>
+    <string name="error_no_user">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="error_weak_password">Weak password</string>
+    <string name="chats">chat</string>
+    <string name="action_accept">Accept</string>
+    <string name="verify">Verify</string>
+    <string name="email_sent">Email sent</string>
+    <string name="join_request_sent">Join request sent</string>
+    <string name="send_verification">SEND VERIFICATION</string>
+    <string name="verification_email_sent">verification email sent</string>
+    <string name="people">People</string>
+    <string name="anywhere">ANYWHERE</string>
+    <string name="error_ccured_search">Error occurred, try again later</string>
+    <string name="error_search_empty">All field are empty, add some value first</string>
+    <string name="total_votes">total votes:</string>
+    <string name="anytime">ANYTIME</string>
+    <string name="past_year" >PAST YEAR</string>
+    <string name="past_month">PAST MONTH</string>
+    <string name="past_hour">PAST_HOUR</string>
+    <string name="past_day">PAST_DAY</string>
+    <string name="past_week">PAST WEEK</string>
+    <string name="no_results">No results found</string>
+    <string name="ooh_no_nothing_yet">Ooh no, nothing yet</string>
+</resources><!--TODO: add app download link to copy summaries-->
