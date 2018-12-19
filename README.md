@@ -17,4 +17,8 @@ Users can save posts and find them in their profiles.
 Pending Features: The app is released earlier than planned and so some intended features is not included yet, but will be soon:
 
 viewing other users profiles and following them.
+
+| Executable  | Team | Description	|Licence	|Country	|Author|
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| [[.apk|https://github.com/moehawamdeh/DevConnect/raw/master/release/app-release.apk]]  | DevConnect  | Explore projects, create projects and find your team| GNU GPL | Jordan | [[@moehawamdeh|https://github.com/moehawamdehk]] | 
 Developer: Mohammed Hawamdeh, Yarmouk university, Jordan.
