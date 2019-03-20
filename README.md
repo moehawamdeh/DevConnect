@@ -1,5 +1,5 @@
 # DevConnect
-
+ 
 **Team finding and collaboration platform**
 
 **The idea:**
@@ -8,6 +8,13 @@ As an Computer Engineering students beign part of the IT world I 've always had 
 
 The App: DevConnect is an Android app for api level > 23, the app is based on Firebase and uses Algolia search
 
+**Preview**
+
+ Post feed             |  Profile             |  Project wizard             |  Search             |  Chat
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/moehawamdeh/DevConnect/master/screenshots/feed.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/profile.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/create-3.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/search.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/chat.png)
+ 
+ 
 **Features:**
 
 - Exploring posted projects, voting for them and sending join requests.
