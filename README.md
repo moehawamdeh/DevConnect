@@ -8,28 +8,28 @@ As an Computer Engineering students beign part of the IT world I 've always had 
 
 The App: DevConnect is an Android app for api level > 23, the app is based on Firebase and uses Algolia search
 
-**#Preview**
+####Preview
 
  Post feed             |  Profile             |  Project wizard             |  Search             |  Chat
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/moehawamdeh/DevConnect/master/screenshots/feed.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/profile.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/create-3.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/search.png)  |  ![](https://github.com/moehawamdeh/DevConnect/blob/master/screenshots/chat.png)
  
  
-**Features:**
+####Features:
 
 - Exploring posted projects, voting for them and sending join requests.
 - Posts can be viewed sorted by Votes in Top posts tab, and sorted by date in NEW posts tab.
 - If a join request is accepted a chat room is created between the two parties to discuss work.
 - Users can save posts and find them in their profiles.
 
-**Pending Features:**
+####Pending Features:
 
 *The app is released earlier than planned and so some intended features is not included yet, but will be soon:
 - viewing other users profiles.
 - following users.
 - More chat options
 
-**Info for IEEEmadC**
+####Info for IEEEmadC
 
 | Executable  | Team | Description	|Licence	|Country	|Author|
 | ------------- | ------------- | ------------------------------------- | ------------- | ------------- | ------------- |
