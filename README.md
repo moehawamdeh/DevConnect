@@ -8,7 +8,7 @@ As an Computer Engineering students beign part of the IT world I 've always had 
 
 The App: DevConnect is an Android app for api level > 23, the app is based on Firebase and uses Algolia search
 
-**Preview**
+**#Preview**
 
  Post feed             |  Profile             |  Project wizard             |  Search             |  Chat
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
