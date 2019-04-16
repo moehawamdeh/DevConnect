@@ -2,7 +2,7 @@
  
 **Team finding and collaboration platform**
 
-**The idea:**
+#### The idea:
 
 As an Computer Engineering students beign part of the IT world I 've always had ideas and projects that i needed to deploy to the world, Different ideas but all has this one particular challange in common, to find a team "Your team are your strength, and here starts DevConnect's part.
 
